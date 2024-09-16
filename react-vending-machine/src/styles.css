@@ -1,0 +1,74 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navigation bar styles */
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .navbar a.active {
+    font-weight: bold;
+    color: #ff0;
+  }
+  
+  /* Vending Machine page styles */
+  .vending-machine {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Snack pages styles */
+  .snack-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Snack item styling */
+  .snack-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  .snack-item img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .snack-item h2 {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .snack-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
